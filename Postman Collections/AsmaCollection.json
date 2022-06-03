@@ -15,13 +15,17 @@
 						"exec": [
 							"pm.test(\"Body matches string\", function () {",
 							"    pm.expect(pm.response.text()).to.include(\"postman-echo.com\");",
+							"});",
+							"",
+							"pm.test(\"Body matches string\", function () {",
+							"    pm.expect(pm.response.text()).to.include(\"443\");",
 							"});"
 						],
 						"type": "text/javascript"
 					}
 				}
 			],
-			"_postman_id": "231fc953-cafa-48c9-b2e2-7c2ba6f8f1e9",
+			"id": "231fc953-cafa-48c9-b2e2-7c2ba6f8f1e9",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -49,7 +53,7 @@
 					}
 				}
 			],
-			"_postman_id": "4b6f038a-5e45-428e-8d98-859290644259",
+			"id": "4b6f038a-5e45-428e-8d98-859290644259",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
